@@ -598,7 +598,7 @@
             [_entryField resignFirstResponder];
         }
     }
-    else if (CGRectContainsPoint(_hueSaturationView.frame, touchPoint)) {
+    else if (CGRectContainsPoint([_hueSaturationView superview].frame, touchPoint)) {
         _movingView = _crosshairSelector;
         [self evaluateTouchForHueSaturation:touch];
         [self moveSelectors];
