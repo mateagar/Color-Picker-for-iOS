@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C620B5BB142E329100C3250B /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B1142E329100C3250B /* Default-Landscape.png */; };
+		C620B5BC142E329100C3250B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B2142E329100C3250B /* Default-Portrait.png */; };
+		C620B5BD142E329100C3250B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B3142E329100C3250B /* Default.png */; };
+		C620B5BE142E329100C3250B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B4142E329100C3250B /* Default@2x.png */; };
+		C620B5BF142E329100C3250B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B5142E329100C3250B /* Icon-72.png */; };
+		C620B5C0142E329100C3250B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B6142E329100C3250B /* Icon.png */; };
+		C620B5C1142E329100C3250B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B7142E329100C3250B /* Icon@2x.png */; };
+		C620B5C2142E329100C3250B /* IconSmall-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B8142E329100C3250B /* IconSmall-50.png */; };
+		C620B5C3142E329100C3250B /* IconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5B9142E329100C3250B /* IconSmall.png */; };
+		C620B5C4142E329100C3250B /* IconSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C620B5BA142E329100C3250B /* IconSmall@2x.png */; };
+		C6900110142CC7F400095285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C690010F142CC7F400095285 /* UIKit.framework */; };
+		C6900112142CC7F400095285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6900111142CC7F400095285 /* Foundation.framework */; };
+		C6900114142CC7F400095285 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6900113142CC7F400095285 /* CoreGraphics.framework */; };
+		C690011C142CC7F400095285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C690011B142CC7F400095285 /* main.m */; };
+		C6900120142CC7F400095285 /* ColorPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C690011F142CC7F400095285 /* ColorPickerAppDelegate.m */; };
+		C6900124142CC7F400095285 /* ColorPickerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C6900123142CC7F400095285 /* ColorPickerAppDelegate_iPhone.m */; };
+		C6900127142CC7F400095285 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6900125142CC7F400095285 /* MainWindow_iPhone.xib */; };
+		C690012B142CC7F400095285 /* ColorPickerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C690012A142CC7F400095285 /* ColorPickerAppDelegate_iPad.m */; };
+		C690012E142CC7F400095285 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C690012C142CC7F400095285 /* MainWindow_iPad.xib */; };
+		C6900136142CC8C800095285 /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6900135142CC8C800095285 /* ColorPickerController.mm */; };
+		C690014C142CD3AC00095285 /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = C6900147142CD3AC00095285 /* CrosshairSelector.png */; };
+		C690014D142CD3AC00095285 /* CrosshairSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6900148142CD3AC00095285 /* CrosshairSelector@2x.png */; };
+		C690014E142CD3AC00095285 /* HorizontalSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = C6900149142CD3AC00095285 /* HorizontalSelector.png */; };
+		C690014F142CD3AC00095285 /* HorizontalSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C690014A142CD3AC00095285 /* HorizontalSelector@2x.png */; };
+		C6900153142CD89700095285 /* GradientView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6900152142CD89700095285 /* GradientView.mm */; };
+		C6900155142CE83200095285 /* HueSaturationGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C6900154142CE83200095285 /* HueSaturationGradient.png */; };
+		C690016B142E235300095285 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6900169142E235300095285 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C620B5B1142E329100C3250B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		C620B5B2142E329100C3250B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		C620B5B3142E329100C3250B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C620B5B4142E329100C3250B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C620B5B5142E329100C3250B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C620B5B6142E329100C3250B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C620B5B7142E329100C3250B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C620B5B8142E329100C3250B /* IconSmall-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-50.png"; sourceTree = "<group>"; };
+		C620B5B9142E329100C3250B /* IconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSmall.png; sourceTree = "<group>"; };
+		C620B5BA142E329100C3250B /* IconSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall@2x.png"; sourceTree = "<group>"; };
+		C690010B142CC7F400095285 /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690010F142CC7F400095285 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6900111142CC7F400095285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6900113142CC7F400095285 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6900117142CC7F400095285 /* ColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPicker-Info.plist"; sourceTree = "<group>"; };
+		C690011B142CC7F400095285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C690011D142CC7F400095285 /* ColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		C690011E142CC7F400095285 /* ColorPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorPickerAppDelegate.h; sourceTree = "<group>"; };
+		C690011F142CC7F400095285 /* ColorPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerAppDelegate.m; sourceTree = "<group>"; };
+		C6900122142CC7F400095285 /* ColorPickerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorPickerAppDelegate_iPhone.h; path = iPhone/ColorPickerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		C6900123142CC7F400095285 /* ColorPickerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ColorPickerAppDelegate_iPhone.m; path = iPhone/ColorPickerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		C6900126142CC7F400095285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		C6900129142CC7F400095285 /* ColorPickerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorPickerAppDelegate_iPad.h; path = iPad/ColorPickerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		C690012A142CC7F400095285 /* ColorPickerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ColorPickerAppDelegate_iPad.m; path = iPad/ColorPickerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		C690012D142CC7F400095285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		C6900134142CC8C800095285 /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
+		C6900135142CC8C800095285 /* ColorPickerController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerController.mm; sourceTree = "<group>"; };
+		C6900147142CD3AC00095285 /* CrosshairSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrosshairSelector.png; sourceTree = "<group>"; };
+		C6900148142CD3AC00095285 /* CrosshairSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrosshairSelector@2x.png"; sourceTree = "<group>"; };
+		C6900149142CD3AC00095285 /* HorizontalSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalSelector.png; sourceTree = "<group>"; };
+		C690014A142CD3AC00095285 /* HorizontalSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalSelector@2x.png"; sourceTree = "<group>"; };
+		C6900151142CD89700095285 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		C6900152142CD89700095285 /* GradientView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GradientView.mm; sourceTree = "<group>"; };
+		C6900154142CE83200095285 /* HueSaturationGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HueSaturationGradient.png; sourceTree = "<group>"; };
+		C690016A142E235300095285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6900108142CC7F400095285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6900110142CC7F400095285 /* UIKit.framework in Frameworks */,
+				C6900112142CC7F400095285 /* Foundation.framework in Frameworks */,
+				C6900114142CC7F400095285 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6900100142CC7F400095285 = {
+			isa = PBXGroup;
+			children = (
+				C6900115142CC7F400095285 /* ColorPicker */,
+				C690010E142CC7F400095285 /* Frameworks */,
+				C690010C142CC7F400095285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C690010C142CC7F400095285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C690010B142CC7F400095285 /* ColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C690010E142CC7F400095285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C690010F142CC7F400095285 /* UIKit.framework */,
+				C6900111142CC7F400095285 /* Foundation.framework */,
+				C6900113142CC7F400095285 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6900115142CC7F400095285 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C690011E142CC7F400095285 /* ColorPickerAppDelegate.h */,
+				C690011F142CC7F400095285 /* ColorPickerAppDelegate.m */,
+				C6900134142CC8C800095285 /* ColorPickerController.h */,
+				C6900135142CC8C800095285 /* ColorPickerController.mm */,
+				C6900151142CD89700095285 /* GradientView.h */,
+				C6900152142CD89700095285 /* GradientView.mm */,
+				C6900121142CC7F400095285 /* iPhone */,
+				C6900128142CC7F400095285 /* iPad */,
+				C6900116142CC7F400095285 /* Supporting Files */,
+				C690013B142CC91900095285 /* Resources */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		C6900116142CC7F400095285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6900117142CC7F400095285 /* ColorPicker-Info.plist */,
+				C6900169142E235300095285 /* Localizable.strings */,
+				C690011B142CC7F400095285 /* main.m */,
+				C690011D142CC7F400095285 /* ColorPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6900121142CC7F400095285 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C6900122142CC7F400095285 /* ColorPickerAppDelegate_iPhone.h */,
+				C6900123142CC7F400095285 /* ColorPickerAppDelegate_iPhone.m */,
+				C6900125142CC7F400095285 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		C6900128142CC7F400095285 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C6900129142CC7F400095285 /* ColorPickerAppDelegate_iPad.h */,
+				C690012A142CC7F400095285 /* ColorPickerAppDelegate_iPad.m */,
+				C690012C142CC7F400095285 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		C690013B142CC91900095285 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6900147142CD3AC00095285 /* CrosshairSelector.png */,
+				C6900148142CD3AC00095285 /* CrosshairSelector@2x.png */,
+				C6900149142CD3AC00095285 /* HorizontalSelector.png */,
+				C690014A142CD3AC00095285 /* HorizontalSelector@2x.png */,
+				C6900154142CE83200095285 /* HueSaturationGradient.png */,
+				C620B5B1142E329100C3250B /* Default-Landscape.png */,
+				C620B5B2142E329100C3250B /* Default-Portrait.png */,
+				C620B5B3142E329100C3250B /* Default.png */,
+				C620B5B4142E329100C3250B /* Default@2x.png */,
+				C620B5B5142E329100C3250B /* Icon-72.png */,
+				C620B5B6142E329100C3250B /* Icon.png */,
+				C620B5B7142E329100C3250B /* Icon@2x.png */,
+				C620B5B8142E329100C3250B /* IconSmall-50.png */,
+				C620B5B9142E329100C3250B /* IconSmall.png */,
+				C620B5BA142E329100C3250B /* IconSmall@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C690010A142CC7F400095285 /* ColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6900131142CC7F400095285 /* Build configuration list for PBXNativeTarget "ColorPicker" */;
+			buildPhases = (
+				C6900107142CC7F400095285 /* Sources */,
+				C6900108142CC7F400095285 /* Frameworks */,
+				C6900109142CC7F400095285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPicker;
+			productName = ColorPicker;
+			productReference = C690010B142CC7F400095285 /* ColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6900102142CC7F400095285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ThinkFlood Inc";
+			};
+			buildConfigurationList = C6900105142CC7F400095285 /* Build configuration list for PBXProject "ColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6900100142CC7F400095285;
+			productRefGroup = C690010C142CC7F400095285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C690010A142CC7F400095285 /* ColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6900109142CC7F400095285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6900127142CC7F400095285 /* MainWindow_iPhone.xib in Resources */,
+				C690012E142CC7F400095285 /* MainWindow_iPad.xib in Resources */,
+				C690014C142CD3AC00095285 /* CrosshairSelector.png in Resources */,
+				C690014D142CD3AC00095285 /* CrosshairSelector@2x.png in Resources */,
+				C690014E142CD3AC00095285 /* HorizontalSelector.png in Resources */,
+				C690014F142CD3AC00095285 /* HorizontalSelector@2x.png in Resources */,
+				C6900155142CE83200095285 /* HueSaturationGradient.png in Resources */,
+				C690016B142E235300095285 /* Localizable.strings in Resources */,
+				C620B5BB142E329100C3250B /* Default-Landscape.png in Resources */,
+				C620B5BC142E329100C3250B /* Default-Portrait.png in Resources */,
+				C620B5BD142E329100C3250B /* Default.png in Resources */,
+				C620B5BE142E329100C3250B /* Default@2x.png in Resources */,
+				C620B5BF142E329100C3250B /* Icon-72.png in Resources */,
+				C620B5C0142E329100C3250B /* Icon.png in Resources */,
+				C620B5C1142E329100C3250B /* Icon@2x.png in Resources */,
+				C620B5C2142E329100C3250B /* IconSmall-50.png in Resources */,
+				C620B5C3142E329100C3250B /* IconSmall.png in Resources */,
+				C620B5C4142E329100C3250B /* IconSmall@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6900107142CC7F400095285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690011C142CC7F400095285 /* main.m in Sources */,
+				C6900120142CC7F400095285 /* ColorPickerAppDelegate.m in Sources */,
+				C6900124142CC7F400095285 /* ColorPickerAppDelegate_iPhone.m in Sources */,
+				C690012B142CC7F400095285 /* ColorPickerAppDelegate_iPad.m in Sources */,
+				C6900136142CC8C800095285 /* ColorPickerController.mm in Sources */,
+				C6900153142CD89700095285 /* GradientView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6900125142CC7F400095285 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6900126142CC7F400095285 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C690012C142CC7F400095285 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C690012D142CC7F400095285 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C6900169142E235300095285 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C690016A142E235300095285 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C690012F142CC7F400095285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6900130142CC7F400095285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6900132142CC7F400095285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPicker/ColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "ColorPicker/ColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6900133142CC7F400095285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorPicker/ColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "ColorPicker/ColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6900105142CC7F400095285 /* Build configuration list for PBXProject "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690012F142CC7F400095285 /* Debug */,
+				C6900130142CC7F400095285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6900131142CC7F400095285 /* Build configuration list for PBXNativeTarget "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6900132142CC7F400095285 /* Debug */,
+				C6900133142CC7F400095285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6900102142CC7F400095285 /* Project object */;
+}
