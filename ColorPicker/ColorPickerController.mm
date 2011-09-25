@@ -26,7 +26,7 @@
 #import "ColorPickerController.h"
 #import <QuartzCore/QuartzCore.h>
 
-#pragma Constants
+#pragma mark Constants
 
 #define BACKGROUND_WHITE_COMPONENT 0.9f
 #define BACKGROUND_ALPHA_COMPONENT 1.0f
@@ -75,7 +75,8 @@
 #define HEXADECIMAL_BLUE_LOCATION 4
 #define HEXADECIMAL_COMPONENT_LENGTH 2
 
-#pragma Private Method Declarations
+#pragma mark -
+#pragma mark Private Method Declarations
 
 @interface ColorPickerController ()
 
@@ -92,14 +93,13 @@
 
 @end
 
-#pragma Implementation
+#pragma mark -
+#pragma mark Implementation
 
 @implementation ColorPickerController
 
-@dynamic selectedColor;
-@synthesize delegate = _delegate;
-
-#pragma Class Methods
+#pragma mark -
+#pragma mark Class Methods
 
 + (HsvColor)hsvColorFromColor:(UIColor *)color {
     RgbColor rgbColor = [ColorPickerController rgbColorFromColor:color];
@@ -246,7 +246,11 @@
     return isValid;
 }
 
-#pragma Properties
+#pragma mark -
+#pragma mark Properties
+
+@dynamic selectedColor;
+@synthesize delegate = _delegate;
 
 - (UIColor *)selectedColor {
     return _selectedColor;
@@ -258,7 +262,8 @@
     [self setColorValues];
 }
 
-#pragma Initializers
+#pragma mark -
+#pragma mark Initializers
 
 - (id)initWithColor:(UIColor *)color andTitle:(NSString *)title {
     self = [super initWithNibName:nil bundle:nil];
@@ -279,7 +284,8 @@
     return self;
 }
 
-#pragma Overrides
+#pragma mark -
+#pragma mark Overrides
 
 - (void)dealloc {
     [_selectedColor release];
@@ -636,7 +642,8 @@
     _movingView = nil;
 }
 
-#pragma Private Methods
+#pragma mark -
+#pragma mark Private Methods
 
 - (void)setColorValues {
     if (_colorView) {
@@ -749,7 +756,8 @@
                                          alpha:1.0f];
 }
 
-#pragma UITextField Delegate Methods
+#pragma mark -
+#pragma mark UITextField Delegate Methods
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     _entryField = textField;

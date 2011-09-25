@@ -25,6 +25,8 @@
 
 #import "GradientView.h"
 
+#pragma mark Constants
+
 #define COLOR_COMPONENT_RED_INDEX 0
 #define COLOR_COMPONENT_GREEN_INDEX 1
 #define COLOR_COMPONENT_BLUE_INDEX 2
@@ -35,7 +37,13 @@
 
 #define GRADIENT_DRAWING_OPTIONS_NONE 0
 
+#pragma mark -
+#pragma mark Implementation
+
 @implementation GradientView
+
+#pragma mark -
+#pragma mark Properties
 
 @dynamic colors;
 
@@ -86,6 +94,9 @@
     }
 }
 
+#pragma mark -
+#pragma mark Initializers
+
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     
@@ -96,6 +107,9 @@
     
     return self;
 }
+
+#pragma mark -
+#pragma mark Overrides
 
 - (void)dealloc {
     if (_colors) {
